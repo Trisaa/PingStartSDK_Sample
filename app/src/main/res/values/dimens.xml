@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common_round_corner">2dp</dimen>
+    <dimen name="button_font_padding">10dp</dimen>
+    <dimen name="native_relat_paading">10dp</dimen>
+    <dimen name="native_relat_height">250dp</dimen>
+    <dimen name="native_coverImage_height">185dp</dimen>
+    <dimen name="banner_title_ad_size">18sp</dimen>
+    <dimen name="banner_description_size">11sp</dimen>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_gray_background_color"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/fresh_ad_show"
+        layout="@layout/show_ad_fresh" />
+
+    <include
+        android:id="@+id/native_container"
+        layout="@layout/show_native"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/show_native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fresh_ad_show"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button"
+        android:gravity="center"
+        android:paddingLeft="@dimen/button_font_padding"
+        android:paddingRight="@dimen/button_font_padding"
+        android:text="@string/show_native"
+        android:textColor="@color/white" 
+        android:visibility="invisible"/>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_gray_background_color">
+
+    <RelativeLayout
+        android:id="@+id/adViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <include
+        android:id="@+id/fresh_ad_show"
+        layout="@layout/show_ad_fresh" />
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fresh_ad_show"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button"
+        android:padding="@dimen/button_font_padding"
+        android:text="@string/show_banner"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+</RelativeLayout>

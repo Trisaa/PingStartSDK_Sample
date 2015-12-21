@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PingStartDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad">BANNER</string>
+    <string name="interstitial_ad">INTERSTITIAL</string>
+    <string name="native_ad">NATIVE</string>
+    <string name="shuffle_ad">SHUFFLE</string>
+    <string name="loading_status">Requesting an ad...</string>
+    <string name="load_native_fail">Loading advertising failure</string>
+    <string name="show_banner">Refesh BANNER!</string>
+    <string name="show_interstitial">Show INTERSTITIAL!</string>
+    <string name="show_native">Show NATIVE!</string>
+    <string name="click_here">Click Here!</string>
+    <string name="load_fail_banner">Failed to load Banner</string>
+    <string name="load_fail_native">Failed to load Native</string>
+    <string name="load_fail_inter">Failed to load INTERSTITIAL</string>
+    <string name="loading">Please wait for a moment while loading</string>
+    <string name="shuff_click">Please click here</string>
+    <string name="banner_adflag">AD</string>
+
+</resources>
