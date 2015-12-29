@@ -21,6 +21,6 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
-    compile files('libs/PingStartSDK_v3.0.2.jar')
     compile files('libs/volley.jar')
+    compile files('libs/PingStartSDK_v3.0.3.jar')
 }
