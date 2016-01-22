@@ -3,6 +3,8 @@ package com.pingstart.utils;
 public class DataUtils {
 	public static final int ADS_APPID = 1004;
 	public static final int ADS_SLOTID = 1002;
+	public static final String ADS_PLACEMENT_ID_CPM = "1560511240859053_1688903031353206";
+	public static final String ADS_PLACEMENT_ID_FILL = "1560511240859053_1688902994686543";
 	public static final int AD_BANNER_FIRST = 0;
 	public static final int AD_INTERSTITIAL_SECOND = 1;
 	public static final int AD_NATIVE_THIRD = 2;

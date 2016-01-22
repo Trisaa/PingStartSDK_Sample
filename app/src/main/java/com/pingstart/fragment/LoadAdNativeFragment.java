@@ -28,7 +28,7 @@ public class LoadAdNativeFragment extends Fragment implements NativeListener, On
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mAdsManager = new AdManager(getActivity(), DataUtils.ADS_APPID, DataUtils.ADS_SLOTID);
+        mAdsManager = new AdManager(getActivity(), DataUtils.ADS_APPID, DataUtils.ADS_SLOTID,DataUtils.ADS_PLACEMENT_ID_CPM,DataUtils.ADS_PLACEMENT_ID_FILL);
     }
 
     @Override

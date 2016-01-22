@@ -45,7 +45,9 @@ public class LoadAdInterFragment extends Fragment implements OnClickListener, In
         setViewVisible(View.VISIBLE, View.INVISIBLE);
         if (mAdsManager != null) {
             mAdsManager.destroy();
-            mAdsManager = new AdManager(getActivity(), DataUtils.ADS_APPID, DataUtils.ADS_SLOTID);
+            //here we set the last param true, it means we will show our interstitial ad in our own way rather than the way that facebook does
+            // ,so you even needn't register com.facebook.ads.InterstitialAdActivity in your AndroidManifest.
+            mAdsManager = new AdManager(getActivity(), DataUtils.ADS_APPID, DataUtils.ADS_SLOTID, DataUtils.ADS_PLACEMENT_ID_CPM, DataUtils.ADS_PLACEMENT_ID_FILL, true);
             mAdsManager.setListener(this);
             mAdsManager.loadAd();
         }

@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mAdsContainer = (LinearLayout) findViewById(R.id.ads_container);
-        mNativeAdsManager = new NativeAdsManager(this, 1004, 1002, 5);
+        mNativeAdsManager = new NativeAdsManager(this, 1004, 1002, 5,"1560511240859053_1688903031353206","1560511240859053_1688902994686543");
         mNativeAdsManager.setListener(new NativeAdsManager.AdsListener() {
             @Override
             public void onAdError() {
